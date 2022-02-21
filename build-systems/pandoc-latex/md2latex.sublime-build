@@ -1,0 +1,5 @@
+{
+	"cmd": ["pandoc --pdf-engine=/Library/TeX/texbin/pdflatex  --citeproc --bibliography references.bib -o '$file_base_name.pdf'  '$file_name'"],
+	"selector": "text.html.markdown",
+	"shell": true
+}
